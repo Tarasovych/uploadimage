@@ -125,7 +125,7 @@ use Dan\UploadImage\Exceptions\UploadImageException;
 $file = $request->file('image');
 
 $video = $rubric->name == 'Video' ? true : false;
-$warermark = true;
+$watermark = true;
 
 // Upload and save image.
 try {
